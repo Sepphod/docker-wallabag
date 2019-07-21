@@ -1,6 +1,4 @@
-FROM alpine:latest
-
-LABEL maintainer "Marvin Steadfast <marvin@xsteadfastx.org>"
+FROM arm32v7/alpine:latest
 
 ARG WALLABAG_VERSION=2.3.8
 
